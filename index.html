@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <style>
+        body{
+    background-color:rgb(255, 255, 255);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:95vh;
+    }
+    .game{
+    width:600px;
+    background-color:#fff;
+    padding:15px;
+    border-radius:9px;
+    }
+    .game img{
+    width:31%;
+    cursor:pointer;
+    }
+    .to{
+        font-size: 40px;
+        text-align: center;
+    }
+    .coun{
+        font-size: 40px;
+        text-align: center;
+    }
+    </style>
+    <div class="center">
+        <p class="coun" >counter</p> 
+        <p class="to" >0</p>
+        <p class="dPoint"></p>
+        <p class="iPoint"></p>
+        <button  style="background-color: chocolate; border-radius:9px; font-size: larger;" onclick="has()">Decrement</button>
+        <button  style="background-color: red; border-radius:9px; font-size: larger;" onclick="restart()">Reset</button>
+        <button  style="background-color: green; border-radius:8px; font-size: larger;" onclick="nem()">increment</button>
+    </div>
+    <script src="j.js"></script>
+</body>
+</html>
